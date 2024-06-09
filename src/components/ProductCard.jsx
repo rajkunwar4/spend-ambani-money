@@ -17,7 +17,7 @@ const ProductCard = ({ img_url, title, price, bankHandler }) => {
   };
 
   return (
-    <div className="w-[330px] flex bg-white flex-col justify-center items-center border gap-3 rounded py-3 ">
+    <div className="sm:w-[290px]  lg:w-[330px] flex bg-white flex-col justify-center items-center border gap-3 rounded py-3 ">
       <div>
         <img src={img_url} alt="" className="w-[200px] h-[200px]" />
       </div>
